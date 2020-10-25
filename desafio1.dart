@@ -28,7 +28,7 @@ void main(List<String> args) {
       sobrenomes.add(sobrenome);
       print("Família: $sobrenome");
       for (int i = 0; i < valores.length; i++) {
-        if (sobrenome.toUpperCase() == valores[0].split(" ").last.toLowerCase()) {
+        if (sobrenome.toUpperCase() == valores[0].split(" ").last.toUpperCase()) {
           print("${valores[0]}");
         }
       }
